@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/eastus/connectors/STORAGE_ACCOUNT_CONNSTR_8D07813C25",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/riyazkittur",
+      "type": "storage.azure",
+      "connectionId": "STORAGE_ACCOUNT_CONNSTR",
+      "dynamicId": null
+    }
+  }
+}
